@@ -1,0 +1,26 @@
+{
+  "name": "react-redux-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -d --watch",
+    "test": "mocha tests/setup.js  --require jsdom-global --require mock-local-storage --require babel-core/register tests/**/*.spec.js",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielfalcao/react-redux-chrome-extension.git"
+  },
+  "keywords": [],
+  "author": "gabrielfalcao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielfalcao/react-redux-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/gabrielfalcao/react-redux-chrome-extension#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
